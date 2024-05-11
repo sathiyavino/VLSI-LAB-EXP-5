@@ -1,12 +1,14 @@
+# VLSI-LAB-EXP-5
 SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE
 
 AIM: To simulate and synthesis finite state machine using vivado2023.3.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 
 vivado 2023.3
 
-PROCEDURE:
+**PROCEDURE:**
+
 
 1.Open Vivado: Launch Xilinx Vivado software on your computer.
 
@@ -24,12 +26,14 @@ PROCEDURE:
 
 8.Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
 
-9.View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design. Logic Diagram :
+9.View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
+Logic Diagram :
 
-image
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-5/assets/6987778/34ec5d63-2b3b-4511-81ef-99f4572d5869)
+
 
 VERILOG CODE:
-
+~~~
 module Sequence_Detector_Moore(clock,reset,sequence_in,detector_out);
 input clock, reset, sequence_in; 
 output reg detector_out; 
@@ -86,8 +90,14 @@ begin
  endcase
 end 
 endmodule
-OUTPUT: fsm11
+~~~
+
+OUTPUT:
+![fsm11](https://github.com/CalebSamraj14/VLSI-LAB-EXP-5/assets/163808923/89457bfc-2a68-47e9-8a46-f26c4fbcb487)
+
 
 RESULT:
 
 Thus the simulate and synthesis finite state machine using vivado2023.3 is verified
+
+
